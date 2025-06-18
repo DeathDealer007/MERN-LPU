@@ -52,17 +52,36 @@
 
 // ----------------------------------------de structureing------------------------------------------------------
 
-const person1 ={
+// const person1 ={
+//     name:'Ankit',
+//     height:1.74, //meters
+//     weight: 58,
+//     college: 'LPU',
+//     rollNumber: '08',
+// }
+
+// const person2=person1;
+
+// // console.log("person1",person1);
+// // console.log("person2", person2);
+// const {weight, college} = person1;
+// console.log("👉 ", weight, college);
+
+//-----------------------------------------------------------
+
+const person1 = {
     name:'Ankit',
     height:1.74, //meters
     weight: 58,
     college: 'LPU',
     rollNumber: '08',
+    mark () maths 42,
+    EVS 23,
 }
+const person2 = {...person1};
 
-const person2=person1;
+person2.name = "Rajesh";
+person2.marks.maths = 49;
 
-// console.log("person1",person1);
-// console.log("person2", person2);
-const {weight, college} = person1;
-console.log("👉 ", weight, college);
+console.log("person1",person1)
+console.log("person2",person2)
