@@ -1070,8 +1070,8 @@ const createUI = () => {
         <h5><strong>Name:</strong> ${elem.name}</h5>
         <h5><strong>Rating:</strong> ${elem.rating} ⭐</h5>
         <h5><strong>Cuisine:</strong> ${elem.cuisine}</h5>
-        <h5><strong>Meal Time:</strong> ${elem.mealtime}</h5>
-        <p>${elem.completed}</p>
+        <h5><strong>Meal Time:</strong> ${elem.prepTimeMinutes}</h5>
+        
       </div>
     `;
     parent.appendChild(newDiv);
