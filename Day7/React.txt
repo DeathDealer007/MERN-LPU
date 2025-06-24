@@ -1,0 +1,3 @@
+react is a library
+react gives us components which helps in re-usablility
+react is a single page application
