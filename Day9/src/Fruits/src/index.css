@@ -1,0 +1,77 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f9f9f9;
+  padding: 40px;
+  color: #333;
+}
+
+/* App container */
+div {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #f1f1f1;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Info and controls layout */
+li > span {
+  flex-grow: 1;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2c80b4;
+}
+
+/* Input field */
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
